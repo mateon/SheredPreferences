@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
             startActivity(new Intent(this, LoginActivity.class));
         } else {
             //We already have a user:
-            Toast.makeText(this, "Hi, " + userName, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Hi There, " + userName, Toast.LENGTH_SHORT).show();
         }
         //if we have a userName in the prefs->
         //say Hi, +"User Name"
